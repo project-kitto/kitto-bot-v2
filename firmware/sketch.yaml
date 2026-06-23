@@ -3,25 +3,9 @@ default_profile: lolin_s2_mini
 profiles:
   lolin_s2_mini:
     fqbn: esp32:esp32:lolin_s2_mini
-    notes: Lolin S2 Mini profile
+    notes: Initialized project profile
     libraries:
-      - ESP32Servo (3.2.1)
+      - Adafruit BusIO (1.17.4)
       - Adafruit GFX Library (1.12.6)
       - Adafruit SSD1306 (2.5.17)
-      - Adafruit BusIO (1.17.4)
-  esp32:
-    fqbn: esp32:esp32:esp32
-    notes: Standard ESP32 Dev Module profile
-    libraries:
       - ESP32Servo (3.2.1)
-      - Adafruit GFX Library (1.12.6)
-      - Adafruit SSD1306 (2.5.17)
-      - Adafruit BusIO (1.17.4)
-  esp32s3:
-    fqbn: esp32:esp32:esp32s3
-    notes: ESP32S3 Dev Module profile
-    libraries:
-      - ESP32Servo (3.2.1)
-      - Adafruit GFX Library (1.12.6)
-      - Adafruit SSD1306 (2.5.17)
-      - Adafruit BusIO (1.17.4)
