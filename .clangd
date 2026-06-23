@@ -1,5 +1,5 @@
 CompileFlags:
-  CompilationDatabase: firmware/build
+  CompilationDatabase: firmware/debugging-firmware/sesame-motor-tester/build
   Remove:
     - -mlongcalls
     - -fstrict-volatile-bitfields
